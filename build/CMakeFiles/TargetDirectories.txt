@@ -1,0 +1,3 @@
+C:/Users/ppdra/Desktop/Game/build/CMakeFiles/main.dir
+C:/Users/ppdra/Desktop/Game/build/CMakeFiles/edit_cache.dir
+C:/Users/ppdra/Desktop/Game/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/ppdra/Desktop/Game/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles\\main.dir\\src\\main.c.obj -c C:\\Users\\ppdra\\Desktop\\Game\\src\\main.c",
+  "file": "C:/Users/ppdra/Desktop/Game/src/main.c",
+  "output": "CMakeFiles/main.dir/src/main.c.obj"
+}
+]

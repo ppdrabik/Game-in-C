@@ -1,0 +1,1 @@
+  -L"C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/lib"  "C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/lib/libSDL2main.a" "C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/lib/libSDL2.dll.a" -mwindows -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
