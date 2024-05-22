@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "libsdl_init.a"
+			"path" : "librectangle.a"
 		}
 	],
 	"backtrace" : 1,
@@ -26,7 +26,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 10,
+				"line" : 8,
 				"parent" : 0
 			},
 			{
@@ -44,13 +44,13 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 25,
+				"line" : 24,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 26,
+				"line" : 25,
 				"parent" : 0
 			}
 		]
@@ -90,9 +90,9 @@
 			]
 		}
 	],
-	"id" : "sdl_init::@6890427a1f51a3e7e1df",
-	"name" : "sdl_init",
-	"nameOnDisk" : "libsdl_init.a",
+	"id" : "rectangle::@6890427a1f51a3e7e1df",
+	"name" : "rectangle",
+	"nameOnDisk" : "librectangle.a",
 	"paths" : 
 	{
 		"build" : ".",
@@ -113,7 +113,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "lib/sdl_init.c",
+			"path" : "lib/rectangle.c",
 			"sourceGroupIndex" : 0
 		}
 	],

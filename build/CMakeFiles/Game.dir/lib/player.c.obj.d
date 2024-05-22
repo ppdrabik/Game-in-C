@@ -1,11 +1,6 @@
-CMakeFiles/Game.dir/src/main.c.obj: \
- C:\Users\ppdra\Desktop\Game\src\main.c \
- C:/Users/ppdra/Desktop/Game/src/main.h c:\mingw\include\stdio.h \
- c:\mingw\include\_mingw.h c:\mingw\include\msvcrtver.h \
- c:\mingw\include\w32api.h c:\mingw\include\sdkddkver.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h \
- c:\mingw\include\sys/types.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\stdarg.h \
+CMakeFiles/Game.dir/lib/player.c.obj: \
+ C:\Users\ppdra\Desktop\Game\lib\player.c \
+ C:/Users/ppdra/Desktop/Game/lib/player.h \
  c:\users\ppdra\desktop\game\sdl2-2.30.3\include\sdl.h \
  c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_main.h \
  c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_stdinc.h \
@@ -13,8 +8,12 @@ CMakeFiles/Game.dir/src/main.c.obj: \
  c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_platform.h \
  c:\users\ppdra\desktop\game\sdl2-2.30.3\include\begin_code.h \
  c:\users\ppdra\desktop\game\sdl2-2.30.3\include\close_code.h \
+ c:\mingw\include\sdkddkver.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\stdarg.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\stdint.h \
- c:\mingw\include\stdint.h \
+ c:\mingw\include\stdint.h c:\mingw\include\_mingw.h \
+ c:\mingw\include\msvcrtver.h c:\mingw\include\w32api.h \
  c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_assert.h \
  c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_atomic.h \
  c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_audio.h \
@@ -94,10 +93,5 @@ CMakeFiles/Game.dir/src/main.c.obj: \
  c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_version.h \
  c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_locale.h \
  c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_misc.h \
- c:\users\ppdra\desktop\game\sdl2_image-2.8.2\include\sdl_image.h \
- c:\users\ppdra\desktop\game\sdl2-2.30.3\include\sdl_version.h \
- c:\users\ppdra\desktop\game\sdl2-2.30.3\include\begin_code.h \
- c:\users\ppdra\desktop\game\sdl2-2.30.3\include\close_code.h \
- C:/Users/ppdra/Desktop/Game/lib/player.h \
  c:\users\ppdra\desktop\game\sdl2-2.30.3\include\sdl_keyboard.h \
- C:/Users/ppdra/Desktop/Game/lib/sdl_init.h
+ C:/Users/ppdra/Desktop/Game/lib/rectangle.h

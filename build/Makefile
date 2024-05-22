@@ -129,19 +129,6 @@ player/fast:
 .PHONY : player/fast
 
 #=============================================================================
-# Target rules for targets named movement
-
-# Build rule for target.
-movement: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 movement
-.PHONY : movement
-
-# fast build rule for target.
-movement/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\movement.dir\build.make CMakeFiles/movement.dir/build
-.PHONY : movement/fast
-
-#=============================================================================
 # Target rules for targets named rectangle
 
 # Build rule for target.
@@ -180,36 +167,13 @@ Game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/build
 .PHONY : Game/fast
 
-lib/movement.obj: lib/movement.c.obj
-.PHONY : lib/movement.obj
-
-# target to build an object file
-lib/movement.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\movement.dir\build.make CMakeFiles/movement.dir/lib/movement.c.obj
-.PHONY : lib/movement.c.obj
-
-lib/movement.i: lib/movement.c.i
-.PHONY : lib/movement.i
-
-# target to preprocess a source file
-lib/movement.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\movement.dir\build.make CMakeFiles/movement.dir/lib/movement.c.i
-.PHONY : lib/movement.c.i
-
-lib/movement.s: lib/movement.c.s
-.PHONY : lib/movement.s
-
-# target to generate assembly for a file
-lib/movement.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\movement.dir\build.make CMakeFiles/movement.dir/lib/movement.c.s
-.PHONY : lib/movement.c.s
-
 lib/player.obj: lib/player.c.obj
 .PHONY : lib/player.obj
 
 # target to build an object file
 lib/player.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\player.dir\build.make CMakeFiles/player.dir/lib/player.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/lib/player.c.obj
 .PHONY : lib/player.c.obj
 
 lib/player.i: lib/player.c.i
@@ -218,6 +182,7 @@ lib/player.i: lib/player.c.i
 # target to preprocess a source file
 lib/player.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\player.dir\build.make CMakeFiles/player.dir/lib/player.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/lib/player.c.i
 .PHONY : lib/player.c.i
 
 lib/player.s: lib/player.c.s
@@ -226,6 +191,7 @@ lib/player.s: lib/player.c.s
 # target to generate assembly for a file
 lib/player.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\player.dir\build.make CMakeFiles/player.dir/lib/player.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/lib/player.c.s
 .PHONY : lib/player.c.s
 
 lib/rectangle.obj: lib/rectangle.c.obj
@@ -312,13 +278,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Game
-	@echo ... movement
 	@echo ... player
 	@echo ... rectangle
 	@echo ... sdl_init
-	@echo ... lib/movement.obj
-	@echo ... lib/movement.i
-	@echo ... lib/movement.s
 	@echo ... lib/player.obj
 	@echo ... lib/player.i
 	@echo ... lib/player.s

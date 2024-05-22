@@ -1,5 +1,4 @@
 C:/Users/ppdra/Desktop/Game/build/CMakeFiles/player.dir
-C:/Users/ppdra/Desktop/Game/build/CMakeFiles/movement.dir
 C:/Users/ppdra/Desktop/Game/build/CMakeFiles/rectangle.dir
 C:/Users/ppdra/Desktop/Game/build/CMakeFiles/sdl_init.dir
 C:/Users/ppdra/Desktop/Game/build/CMakeFiles/Game.dir

@@ -20,8 +20,7 @@ int main(int argc, char *argv[])
             break;
     }
     SDL_RenderClear(win.render);
-    const Uint8 *array_addr = SDL_GetKeyboardState(NULL);
-    MOVEM_player(&player, array_addr);
+    PLAYER_move(&player);
     SDL_RenderCopy(win.render, player.texture, NULL, &player.rect);  
     SDL_RenderPresent(win.render);
     }

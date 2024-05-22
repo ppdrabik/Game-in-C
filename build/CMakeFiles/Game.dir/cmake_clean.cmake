@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Game.dir/lib/player.c.obj"
+  "CMakeFiles/Game.dir/lib/player.c.obj.d"
   "CMakeFiles/Game.dir/lib/sdl_init.c.obj"
   "CMakeFiles/Game.dir/lib/sdl_init.c.obj.d"
   "CMakeFiles/Game.dir/src/main.c.obj"
