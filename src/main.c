@@ -1,22 +1,30 @@
 #include <main.h>
 
-#define WINDOW_WIDTH 1024
-#define WINDOW_HEIGHT 768
+
 
 
 int main(int argc, char *argv[])
 {
-    SDL_Init(SDL_INIT_EVERYTHING);
-    SDL_Window *win = SDL_CreateWindow("Game", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, WINDOW_WIDTH, WINDOW_HEIGHT, 0);
+    Window_s win;
+    Player_s player;
+    SDL_INIT_All(&win);
+    PLAYER_Ctor(&player, player.texture, 0, 0, 100, 100);
+    player.texture = IMG_LoadTexture(win.render, "C:/Users/ppdra/Desktop/Game/textures/player/rock.png");
     
     SDL_Event event;
     while(1)
     {
-        SDL_PollEvent(&event);
-        if (SDL_HasEvent(SDL_QUIT) == SDL_TRUE)
-        {
+    SDL_PollEvent(&event);
+    if (event.type == SDL_QUIT)
+    {
             break;
-        }
+    }
+    SDL_RenderClear(win.render);
+    const Uint8 *array_addr = SDL_GetKeyboardState(NULL);
+    MOVEM_player(&player, array_addr);
+    SDL_RenderCopy(win.render, player.texture, NULL, &player.rect);  
+    SDL_RenderPresent(win.render);
     }
     return 0;
 }
+

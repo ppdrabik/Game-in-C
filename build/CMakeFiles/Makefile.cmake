@@ -29,8 +29,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/ppdra/Desktop/Game/CMakeLists.txt"
   "C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/cmake/sdl2-config-version.cmake"
   "C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/cmake/sdl2-config.cmake"
-  "C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/lib/cmake/SDL2/sdl2-config-version.cmake"
-  "C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/lib/cmake/SDL2/sdl2-config.cmake"
+  "C:/Users/ppdra/Desktop/Game/SDL2_image-2.8.2/cmake/sdl2_image-config-version.cmake"
+  "C:/Users/ppdra/Desktop/Game/SDL2_image-2.8.2/cmake/sdl2_image-config.cmake"
   "CMakeFiles/3.29.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.29.3/CMakeRCCompiler.cmake"
   "CMakeFiles/3.29.3/CMakeSystem.cmake"
@@ -49,5 +49,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/main.dir/DependInfo.cmake"
+  "CMakeFiles/player.dir/DependInfo.cmake"
+  "CMakeFiles/movement.dir/DependInfo.cmake"
+  "CMakeFiles/rectangle.dir/DependInfo.cmake"
+  "CMakeFiles/sdl_init.dir/DependInfo.cmake"
+  "CMakeFiles/Game.dir/DependInfo.cmake"
   )

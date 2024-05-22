@@ -6,27 +6,27 @@ CMakeFiles/main.dir/src/main.c.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h \
  c:\mingw\include\sys/types.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\stdarg.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_main.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_stdinc.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_config.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_platform.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/begin_code.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/close_code.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\sdl.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_main.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_stdinc.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_config.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_platform.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\begin_code.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\close_code.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\stdint.h \
  c:\mingw\include\stdint.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_assert.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_atomic.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_audio.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_error.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_endian.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_mutex.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_thread.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_assert.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_atomic.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_audio.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_error.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_endian.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_mutex.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_thread.h \
  c:\mingw\include\process.h c:\mingw\include\sys\types.h \
  c:\mingw\include\stdint.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_rwops.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_clipboard.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_cpuinfo.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_rwops.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_clipboard.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_cpuinfo.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\immintrin.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\mmintrin.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\xmmintrin.h \
@@ -61,36 +61,42 @@ CMakeFiles/main.dir/src/main.c.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\f16cintrin.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\rtmintrin.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\xtestintrin.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_events.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_video.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_pixels.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_rect.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_surface.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_blendmode.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_keyboard.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_keycode.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_scancode.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_mouse.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_joystick.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_guid.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_gamecontroller.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_sensor.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_quit.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_gesture.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_touch.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_filesystem.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_haptic.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_hidapi.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_hints.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_loadso.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_log.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_messagebox.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_metal.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_power.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_render.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_shape.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_system.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_timer.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_version.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_locale.h \
- C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/include/SDL2/SDL_misc.h
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_events.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_video.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_pixels.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_rect.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_surface.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_blendmode.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_keyboard.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_keycode.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_scancode.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_mouse.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_joystick.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_guid.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_gamecontroller.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_sensor.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_quit.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_gesture.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_touch.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_filesystem.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_haptic.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_hidapi.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_hints.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_loadso.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_log.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_messagebox.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_metal.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_power.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_render.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_shape.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_system.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_timer.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_version.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_locale.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_misc.h \
+ c:\users\ppdra\desktop\game\sdl2_image-2.8.2\include\sdl_image.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\sdl_version.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\begin_code.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\close_code.h \
+ C:/Users/ppdra/Desktop/Game/lib/player.h \
+ C:/Users/ppdra/Desktop/Game/lib/sdl_init.h

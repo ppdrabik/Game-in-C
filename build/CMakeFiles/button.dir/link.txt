@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libbutton.a CMakeFiles/button.dir/lib/button.c.obj
+C:\MinGW\bin\ranlib.exe libbutton.a

@@ -92,8 +92,13 @@ main_EXTERNAL_OBJECTS =
 
 main.exe: CMakeFiles/main.dir/src/main.c.obj
 main.exe: CMakeFiles/main.dir/build.make
-main.exe: C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/lib/libSDL2main.a
-main.exe: C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/i686-w64-mingw32/lib/libSDL2.dll.a
+main.exe: C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/cmake/../lib/x86/SDL2main.lib
+main.exe: C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/cmake/../lib/x86/SDL2.lib
+main.exe: C:/Users/ppdra/Desktop/Game/SDL2_image-2.8.2/cmake/../lib/x86/SDL2_image.lib
+main.exe: libplayer.a
+main.exe: libmovement.a
+main.exe: librectangle.a
+main.exe: libsdl_init.a
 main.exe: CMakeFiles/main.dir/linkLibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp
 main.exe: CMakeFiles/main.dir/link.txt

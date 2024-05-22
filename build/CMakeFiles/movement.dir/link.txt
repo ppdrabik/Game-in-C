@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libmovement.a CMakeFiles/movement.dir/lib/movement.c.obj
+C:\MinGW\bin\ranlib.exe libmovement.a

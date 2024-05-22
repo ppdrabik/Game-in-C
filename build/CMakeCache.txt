@@ -234,8 +234,14 @@ Game_SOURCE_DIR:STATIC=C:/Users/ppdra/Desktop/Game
 //Single output directory for building all libraries.
 LIBRARY_OUTPUT_PATH:PATH=
 
+//The directory containing a CMake configuration file for SDL2Image.
+SDL2Image_DIR:PATH=SDL2Image_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for SDL2.
 SDL2_DIR:PATH=C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/cmake
+
+//The directory containing a CMake configuration file for SDL2_image.
+SDL2_image_DIR:PATH=C:/Users/ppdra/Desktop/Game/SDL2_image-2.8.2/cmake
 
 
 ########################
