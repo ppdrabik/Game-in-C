@@ -18,7 +18,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -36,7 +37,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -45,8 +47,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Game::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Game-Debug-8978a9ac8f8826138b21.json",
+					"jsonFile" : "target-Game-Debug-83850fd64b2a2cb4db72.json",
 					"name" : "Game",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "anim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-anim-Debug-b4ebd1417347e0d93908.json",
+					"name" : "anim",
 					"projectIndex" : 0
 				},
 				{

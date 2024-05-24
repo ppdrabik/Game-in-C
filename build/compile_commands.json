@@ -19,6 +19,12 @@
 },
 {
   "directory": "C:/Users/ppdra/Desktop/Game/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/anim.dir/includes_C.rsp -g -o CMakeFiles\\anim.dir\\lib\\animation.c.obj -c C:\\Users\\ppdra\\Desktop\\Game\\lib\\animation.c",
+  "file": "C:/Users/ppdra/Desktop/Game/lib/animation.c",
+  "output": "CMakeFiles/anim.dir/lib/animation.c.obj"
+},
+{
+  "directory": "C:/Users/ppdra/Desktop/Game/build",
   "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/Game.dir/includes_C.rsp -g -o CMakeFiles\\Game.dir\\src\\main.c.obj -c C:\\Users\\ppdra\\Desktop\\Game\\src\\main.c",
   "file": "C:/Users/ppdra/Desktop/Game/src/main.c",
   "output": "CMakeFiles/Game.dir/src/main.c.obj"
@@ -34,5 +40,11 @@
   "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/Game.dir/includes_C.rsp -g -o CMakeFiles\\Game.dir\\lib\\player.c.obj -c C:\\Users\\ppdra\\Desktop\\Game\\lib\\player.c",
   "file": "C:/Users/ppdra/Desktop/Game/lib/player.c",
   "output": "CMakeFiles/Game.dir/lib/player.c.obj"
+},
+{
+  "directory": "C:/Users/ppdra/Desktop/Game/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/Game.dir/includes_C.rsp -g -o CMakeFiles\\Game.dir\\lib\\animation.c.obj -c C:\\Users\\ppdra\\Desktop\\Game\\lib\\animation.c",
+  "file": "C:/Users/ppdra/Desktop/Game/lib/animation.c",
+  "output": "CMakeFiles/Game.dir/lib/animation.c.obj"
 }
 ]

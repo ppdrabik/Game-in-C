@@ -7,9 +7,9 @@ include_directories(lib)
 add_library(player lib/player.c)
 add_library(rectangle lib/rectangle.c)
 add_library(sdl_init lib/sdl_init.c)
+add_library(anim lib/animation.c)
 
-
-add_executable (Game src/main.c lib/sdl_init.c lib/player.c)
+add_executable (Game src/main.c lib/sdl_init.c lib/player.c lib/animation.c)
 
 
 set(CMAKE_PREFIX_PATH "C:/Users/ppdra/Desktop/Game")
@@ -23,4 +23,4 @@ if (SDL2_image_FOUND)
 endif()
 include_directories(C:/Users/ppdra/Desktop/Game/SDL2-2.30.3/include)
 include_directories(C:/Users/ppdra/Desktop/Game/SDL2_image-2.8.2/include)
-target_link_libraries(Game SDL2::SDL2main SDL2::SDL2 SDL2_image::SDL2_image player rectangle sdl_init)
+target_link_libraries(Game SDL2::SDL2main SDL2::SDL2 SDL2_image::SDL2_image player rectangle sdl_init anim)

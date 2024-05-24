@@ -8,10 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/ppdra/Desktop/Game/lib/animation.c" "CMakeFiles/Game.dir/lib/animation.c.obj" "gcc" "CMakeFiles/Game.dir/lib/animation.c.obj.d"
-  "C:/Users/ppdra/Desktop/Game/lib/player.c" "CMakeFiles/Game.dir/lib/player.c.obj" "gcc" "CMakeFiles/Game.dir/lib/player.c.obj.d"
-  "C:/Users/ppdra/Desktop/Game/lib/sdl_init.c" "CMakeFiles/Game.dir/lib/sdl_init.c.obj" "gcc" "CMakeFiles/Game.dir/lib/sdl_init.c.obj.d"
-  "C:/Users/ppdra/Desktop/Game/src/main.c" "CMakeFiles/Game.dir/src/main.c.obj" "gcc" "CMakeFiles/Game.dir/src/main.c.obj.d"
+  "C:/Users/ppdra/Desktop/Game/lib/animation.c" "CMakeFiles/anim.dir/lib/animation.c.obj" "gcc" "CMakeFiles/anim.dir/lib/animation.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

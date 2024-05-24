@@ -7,6 +7,7 @@
 
 #define WINDOW_WIDTH 1024
 #define WINDOW_HEIGHT 768
+#define FPS 60
 
 
 typedef struct

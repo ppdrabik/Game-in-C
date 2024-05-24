@@ -100,4 +100,5 @@ CMakeFiles/Game.dir/src/main.c.obj: \
  c:\users\ppdra\desktop\game\sdl2-2.30.3\include\close_code.h \
  C:/Users/ppdra/Desktop/Game/lib/player.h \
  c:\users\ppdra\desktop\game\sdl2-2.30.3\include\sdl_keyboard.h \
+ C:/Users/ppdra/Desktop/Game/lib/animation.h \
  C:/Users/ppdra/Desktop/Game/lib/sdl_init.h

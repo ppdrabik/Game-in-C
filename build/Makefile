@@ -155,6 +155,19 @@ sdl_init/fast:
 .PHONY : sdl_init/fast
 
 #=============================================================================
+# Target rules for targets named anim
+
+# Build rule for target.
+anim: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 anim
+.PHONY : anim
+
+# fast build rule for target.
+anim/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\anim.dir\build.make CMakeFiles/anim.dir/build
+.PHONY : anim/fast
+
+#=============================================================================
 # Target rules for targets named Game
 
 # Build rule for target.
@@ -166,6 +179,33 @@ Game: cmake_check_build_system
 Game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/build
 .PHONY : Game/fast
+
+lib/animation.obj: lib/animation.c.obj
+.PHONY : lib/animation.obj
+
+# target to build an object file
+lib/animation.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\anim.dir\build.make CMakeFiles/anim.dir/lib/animation.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/lib/animation.c.obj
+.PHONY : lib/animation.c.obj
+
+lib/animation.i: lib/animation.c.i
+.PHONY : lib/animation.i
+
+# target to preprocess a source file
+lib/animation.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\anim.dir\build.make CMakeFiles/anim.dir/lib/animation.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/lib/animation.c.i
+.PHONY : lib/animation.c.i
+
+lib/animation.s: lib/animation.c.s
+.PHONY : lib/animation.s
+
+# target to generate assembly for a file
+lib/animation.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\anim.dir\build.make CMakeFiles/anim.dir/lib/animation.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/lib/animation.c.s
+.PHONY : lib/animation.c.s
 
 lib/player.obj: lib/player.c.obj
 .PHONY : lib/player.obj
@@ -278,9 +318,13 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Game
+	@echo ... anim
 	@echo ... player
 	@echo ... rectangle
 	@echo ... sdl_init
+	@echo ... lib/animation.obj
+	@echo ... lib/animation.i
+	@echo ... lib/animation.s
 	@echo ... lib/player.obj
 	@echo ... lib/player.i
 	@echo ... lib/player.s

@@ -1,6 +1,6 @@
-CMakeFiles/Game.dir/lib/player.c.obj: \
- C:\Users\ppdra\Desktop\Game\lib\player.c \
- C:/Users/ppdra/Desktop/Game/lib/player.h \
+CMakeFiles/Game.dir/lib/animation.c.obj: \
+ C:\Users\ppdra\Desktop\Game\lib\animation.c \
+ C:/Users/ppdra/Desktop/Game/lib/animation.h \
  c:\users\ppdra\desktop\game\sdl2-2.30.3\include\sdl.h \
  c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_main.h \
  c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_stdinc.h \
@@ -93,11 +93,8 @@ CMakeFiles/Game.dir/lib/player.c.obj: \
  c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_version.h \
  c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_locale.h \
  c:\users\ppdra\desktop\game\sdl2-2.30.3\include\SDL_misc.h \
- c:\users\ppdra\desktop\game\sdl2-2.30.3\include\sdl_keyboard.h \
- C:/Users/ppdra/Desktop/Game/lib/animation.h \
  C:/Users/ppdra/Desktop/Game/lib/sdl_init.h \
  c:\users\ppdra\desktop\game\sdl2_image-2.8.2\include\sdl_image.h \
  c:\users\ppdra\desktop\game\sdl2-2.30.3\include\sdl_version.h \
  c:\users\ppdra\desktop\game\sdl2-2.30.3\include\begin_code.h \
- c:\users\ppdra\desktop\game\sdl2-2.30.3\include\close_code.h \
- C:/Users/ppdra/Desktop/Game/lib/rectangle.h
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\close_code.h

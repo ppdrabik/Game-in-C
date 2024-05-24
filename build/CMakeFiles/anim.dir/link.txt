@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libanim.a CMakeFiles/anim.dir/lib/animation.c.obj
+C:\MinGW\bin\ranlib.exe libanim.a

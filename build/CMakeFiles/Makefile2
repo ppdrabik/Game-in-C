@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = C:\Users\ppdra\Desktop\Game\build
 all: CMakeFiles/player.dir/all
 all: CMakeFiles/rectangle.dir/all
 all: CMakeFiles/sdl_init.dir/all
+all: CMakeFiles/anim.dir/all
 all: CMakeFiles/Game.dir/all
 .PHONY : all
 
@@ -76,6 +77,7 @@ preinstall:
 clean: CMakeFiles/player.dir/clean
 clean: CMakeFiles/rectangle.dir/clean
 clean: CMakeFiles/sdl_init.dir/clean
+clean: CMakeFiles/anim.dir/clean
 clean: CMakeFiles/Game.dir/clean
 .PHONY : clean
 
@@ -86,7 +88,7 @@ clean: CMakeFiles/Game.dir/clean
 CMakeFiles/player.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\player.dir\build.make CMakeFiles/player.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\player.dir\build.make CMakeFiles/player.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ppdra\Desktop\Game\build\CMakeFiles --progress-num=5,6 "Built target player"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ppdra\Desktop\Game\build\CMakeFiles --progress-num=8,9 "Built target player"
 .PHONY : CMakeFiles/player.dir/all
 
 # Build rule for subdir invocation for target.
@@ -112,7 +114,7 @@ CMakeFiles/player.dir/clean:
 CMakeFiles/rectangle.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rectangle.dir\build.make CMakeFiles/rectangle.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rectangle.dir\build.make CMakeFiles/rectangle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ppdra\Desktop\Game\build\CMakeFiles --progress-num=7,8 "Built target rectangle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ppdra\Desktop\Game\build\CMakeFiles --progress-num=10,11 "Built target rectangle"
 .PHONY : CMakeFiles/rectangle.dir/all
 
 # Build rule for subdir invocation for target.
@@ -138,7 +140,7 @@ CMakeFiles/rectangle.dir/clean:
 CMakeFiles/sdl_init.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_init.dir\build.make CMakeFiles/sdl_init.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sdl_init.dir\build.make CMakeFiles/sdl_init.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ppdra\Desktop\Game\build\CMakeFiles --progress-num=9,10 "Built target sdl_init"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ppdra\Desktop\Game\build\CMakeFiles --progress-num=12,13 "Built target sdl_init"
 .PHONY : CMakeFiles/sdl_init.dir/all
 
 # Build rule for subdir invocation for target.
@@ -158,20 +160,47 @@ CMakeFiles/sdl_init.dir/clean:
 .PHONY : CMakeFiles/sdl_init.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/anim.dir
+
+# All Build rule for target.
+CMakeFiles/anim.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\anim.dir\build.make CMakeFiles/anim.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\anim.dir\build.make CMakeFiles/anim.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ppdra\Desktop\Game\build\CMakeFiles --progress-num=6,7 "Built target anim"
+.PHONY : CMakeFiles/anim.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/anim.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ppdra\Desktop\Game\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/anim.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ppdra\Desktop\Game\build\CMakeFiles 0
+.PHONY : CMakeFiles/anim.dir/rule
+
+# Convenience name for target.
+anim: CMakeFiles/anim.dir/rule
+.PHONY : anim
+
+# clean rule for target.
+CMakeFiles/anim.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\anim.dir\build.make CMakeFiles/anim.dir/clean
+.PHONY : CMakeFiles/anim.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Game.dir
 
 # All Build rule for target.
 CMakeFiles/Game.dir/all: CMakeFiles/player.dir/all
 CMakeFiles/Game.dir/all: CMakeFiles/rectangle.dir/all
 CMakeFiles/Game.dir/all: CMakeFiles/sdl_init.dir/all
+CMakeFiles/Game.dir/all: CMakeFiles/anim.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ppdra\Desktop\Game\build\CMakeFiles --progress-num=1,2,3,4 "Built target Game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ppdra\Desktop\Game\build\CMakeFiles --progress-num=1,2,3,4,5 "Built target Game"
 .PHONY : CMakeFiles/Game.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Game.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ppdra\Desktop\Game\build\CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ppdra\Desktop\Game\build\CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Game.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ppdra\Desktop\Game\build\CMakeFiles 0
 .PHONY : CMakeFiles/Game.dir/rule

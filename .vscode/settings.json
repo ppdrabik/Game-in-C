@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "main.h": "c",
-        "movement.h": "c"
+        "movement.h": "c",
+        "player.h": "c"
     }
 }

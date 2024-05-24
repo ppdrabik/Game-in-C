@@ -52,5 +52,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/player.dir/DependInfo.cmake"
   "CMakeFiles/rectangle.dir/DependInfo.cmake"
   "CMakeFiles/sdl_init.dir/DependInfo.cmake"
+  "CMakeFiles/anim.dir/DependInfo.cmake"
   "CMakeFiles/Game.dir/DependInfo.cmake"
   )
