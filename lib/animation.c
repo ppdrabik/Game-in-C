@@ -1,75 +1,49 @@
 #include <animation.h>
 
-void ANIMATION_Set_TextureIMG(Window_s *win, Animation_t* animation, const char *location)
+
+static void ANIMATION_Set_TextureIMG(Window_s *win, Animation_s* animation, const char *location);
+static void ANIMATION_Cut_Sprite(SDL_Rect *origin, int w, int h);
+
+
+
+static void ANIMATION_Set_TextureIMG(Window_s *win, Animation_s* animation, const char *location)
 {
     animation->texture = IMG_LoadTexture(win->render, location);
 }
 
-void ANIMATION_Cut_Sprite(SDL_Rect *origin, int w, int h)
+static void ANIMATION_Cut_Sprite(SDL_Rect *origin, int w, int h)
 {
     origin->w = w;
     origin->h = h;
 }
 
 
+/*
+w,h - cut texture to given size, should contain only one entity
 
-void ANIMATION_Init_Up(Animation_t *animation)
+*/
+void ANIMATION_Init(Window_s *win, Animation_s *name, int w, int h, const char *location)
 {
-    for(uint8_t i = 0; i < ANIMATION_SIZE; i++)
+    ANIMATION_Set_TextureIMG(win, name, location);
+    ANIMATION_Cut_Sprite(&name->origin, w, h);
+}
+
+void ANIMATION_Create(Animation_s *name, Array_s *array, int frame_count, int y)
+{
+    array->frame_count = frame_count;
+    array->animation_name =(Frame_s*)malloc(sizeof(Frame_s) * array->frame_count);
+
+    for(uint8_t i = 0; i < array->frame_count - 1; i++)
     {
-        animation->ANIMATION_up[i].x = i * (animation->origin.w);
-        animation->ANIMATION_up[i].y = 512;
+        array->animation_name[i].x = i * (name->origin.w);
+        array->animation_name[i].y = y;
     }
 }
 
-void ANIMATION_Init_Down(Animation_t *animation)
+void ANIMATION_Show(Animation_s *animation, Array_s *array, int index, int i)
 {
-    for(uint8_t i = 0; i < ANIMATION_SIZE; i++)
-    {
-        animation->ANIMATION_up[i].x = i * (animation->origin.w);
-        animation->ANIMATION_up[i].y = 704;
-    }
+    
+    animation->origin.x = array[index].animation_name[i].x;
+    animation->origin.y = array[index].animation_name[i].y;
 }
 
-void ANIMATION_Init_Left(Animation_t *animation)
-{
-    for(uint8_t i = 0; i < ANIMATION_SIZE; i++)
-    {
-        animation->ANIMATION_up[i].x = i * (animation->origin.w);
-        animation->ANIMATION_up[i].y = 576;   
-    }
-
-}
-
-void ANIMATION_Init_Right(Animation_t *animation)
-{
-    for(uint8_t i = 0; i < ANIMATION_SIZE; i++)
-    {
-        animation->ANIMATION_up[i].x = i * (animation->origin.w);
-        animation->ANIMATION_up[i].y = 640;
-    }
-}
-
-void ANIMATION_Up(Animation_t *animation, uint8_t i)
-{
-    animation->origin.x = animation->ANIMATION_up[i].x;
-    animation->origin.y = animation->ANIMATION_up[i].y;
-}
-
-void ANIMATION_Down(Animation_t *animation, uint8_t i)
-{
-    animation->origin.x = animation->ANIMATION_down[i].x;
-    animation->origin.y = animation->ANIMATION_down[i].y;
-}
-
-void ANIMATION_Left(Animation_t *animation, uint8_t i)
-{
-    animation->origin.x = animation->ANIMATION_left[i].x;
-    animation->origin.y = animation->ANIMATION_left[i].y;
-}
-
-void ANIMATION_Right(Animation_t *animation, uint8_t i)
-{
-    animation->origin.x = animation->ANIMATION_right[i].x;
-    animation->origin.y = animation->ANIMATION_right[i].y;
-}

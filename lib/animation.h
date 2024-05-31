@@ -4,30 +4,30 @@
 #include <SDL.h>
 #include <sdl_init.h>
 
-#define ANIMATION_SIZE 9
+
 
 typedef struct
 {
     int x;
     int y;
-}Frame_t;
+}Frame_s;
+
+typedef struct
+{
+    int frame_count;
+    Frame_s *animation_name;
+}Array_s;
 
 typedef struct
 {
     SDL_Rect origin;
     SDL_Texture *texture;
-    Frame_t ANIMATION_up[ANIMATION_SIZE];
-    Frame_t ANIMATION_down[ANIMATION_SIZE];
-    Frame_t ANIMATION_left[ANIMATION_SIZE];
-    Frame_t ANIMATION_right[ANIMATION_SIZE];
-}Animation_t;
+}Animation_s;
 
-void ANIMATION_Set_TextureIMG(Window_s *win, Animation_t* animation, const char *location);
-void ANIMATION_Cut_Sprite(SDL_Rect *origin, int w, int h);
-void ANIMATION_Init_Up(Animation_t *animation);
-void ANIMATION_Init_Down(Animation_t *animation);
-void ANIMATION_Init_Left(Animation_t *animation);
-void ANIMATION_Init_Right(Animation_t *animation);
-void ANIMATION_Up(Animation_t *animation, uint8_t i);
+
+void ANIMATION_Init(Window_s *win, Animation_s *name, int w, int h, const char *location);
+void ANIMATION_Create(Animation_s *name, Array_s *array, int frame_count, int y);
+void ANIMATION_Show(Animation_s *animation, Array_s *array, int index, int i);
+
 
 #endif /* ANIMATION_H */
