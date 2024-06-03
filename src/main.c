@@ -21,26 +21,21 @@
 int main(int argc, char *argv[])
 {
     Window_s win;
-    Animation_s anime_player;
-    Player_s player;
-    Array_s MOVE_UP;
-    Array_s MOVE_DOWN;
-    Array_s MOVE_LEFT;
-    Array_s MOVE_RIGHT;
-    
-   
+    Entity_s player;
+
+
     SDL_INIT_All(&win);
-    ANIMATION_Init(&win, &anime_player, 64, 64, "C:/Users/ppdra/Desktop/Game/textures/player/player.png");
-    ANIMATION_Create(&anime_player, &MOVE_UP, 9, 512);
-    ANIMATION_Create(&anime_player, &MOVE_LEFT, 9, 576);
-    ANIMATION_Create(&anime_player, &MOVE_DOWN, 9, 640);
-    ANIMATION_Create(&anime_player, &MOVE_RIGHT, 9, 704);
+    ENTITY_Init(&player, &win, "C:/Users/ppdra/Desktop/Game/textures/player/player.png");
+    ENTITY_Set_Size(&player, 64, 64);
 
-    Array_s animations[4] = {MOVE_UP, MOVE_DOWN, MOVE_LEFT, MOVE_RIGHT};
+    ENTITY_Animation_Spirit_Size(&player, 64, 64);
+    ENTITY_Animation_Init(&player, 2);
+    ENTITY_Animation_Create(&player, UP, 9, 0);
+    ENTITY_Animation_Create(&player, DOWN, 9, 64);
 
-    PLAYER_Ctor(&player, 0, 0, 0, 0);
-    PLAYER_Set_Size(&player, 64, 64);
-    PLAYER_Set_Position(&player, 0, 0);
+    
+
+    
    
     const int FRAME_TIME = 16; /* 16.66 ms*/
     int FRAME_COUNT = 0;
@@ -81,9 +76,10 @@ int main(int argc, char *argv[])
                 FRAME_COUNT = 0;
             }
         }
-    
-        PLAYER_Move(&player, &anime_player, animations, FRAME_COUNT);
-        SDL_RenderCopy(win.render, anime_player.texture, &anime_player.origin, &player.position);  
+
+        ENTITY_Movement(&player, 0);
+        ENTITY_ANIMATION_Show(&player, UP, FRAME_COUNT);
+        SDL_RenderCopy(win.render, player.texture, &player.spirit, &player.position);  
         SDL_RenderPresent(win.render);
 
 

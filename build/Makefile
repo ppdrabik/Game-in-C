@@ -116,19 +116,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named player
-
-# Build rule for target.
-player: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 player
-.PHONY : player
-
-# fast build rule for target.
-player/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\player.dir\build.make CMakeFiles/player.dir/build
-.PHONY : player/fast
-
-#=============================================================================
 # Target rules for targets named rectangle
 
 # Build rule for target.
@@ -155,17 +142,17 @@ sdl_init/fast:
 .PHONY : sdl_init/fast
 
 #=============================================================================
-# Target rules for targets named anim
+# Target rules for targets named entity
 
 # Build rule for target.
-anim: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 anim
-.PHONY : anim
+entity: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 entity
+.PHONY : entity
 
 # fast build rule for target.
-anim/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\anim.dir\build.make CMakeFiles/anim.dir/build
-.PHONY : anim/fast
+entity/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\entity.dir\build.make CMakeFiles/entity.dir/build
+.PHONY : entity/fast
 
 #=============================================================================
 # Target rules for targets named Game
@@ -180,59 +167,32 @@ Game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/build
 .PHONY : Game/fast
 
-lib/animation.obj: lib/animation.c.obj
-.PHONY : lib/animation.obj
+lib/entity.obj: lib/entity.c.obj
+.PHONY : lib/entity.obj
 
 # target to build an object file
-lib/animation.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\anim.dir\build.make CMakeFiles/anim.dir/lib/animation.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/lib/animation.c.obj
-.PHONY : lib/animation.c.obj
+lib/entity.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\entity.dir\build.make CMakeFiles/entity.dir/lib/entity.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/lib/entity.c.obj
+.PHONY : lib/entity.c.obj
 
-lib/animation.i: lib/animation.c.i
-.PHONY : lib/animation.i
-
-# target to preprocess a source file
-lib/animation.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\anim.dir\build.make CMakeFiles/anim.dir/lib/animation.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/lib/animation.c.i
-.PHONY : lib/animation.c.i
-
-lib/animation.s: lib/animation.c.s
-.PHONY : lib/animation.s
-
-# target to generate assembly for a file
-lib/animation.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\anim.dir\build.make CMakeFiles/anim.dir/lib/animation.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/lib/animation.c.s
-.PHONY : lib/animation.c.s
-
-lib/player.obj: lib/player.c.obj
-.PHONY : lib/player.obj
-
-# target to build an object file
-lib/player.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\player.dir\build.make CMakeFiles/player.dir/lib/player.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/lib/player.c.obj
-.PHONY : lib/player.c.obj
-
-lib/player.i: lib/player.c.i
-.PHONY : lib/player.i
+lib/entity.i: lib/entity.c.i
+.PHONY : lib/entity.i
 
 # target to preprocess a source file
-lib/player.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\player.dir\build.make CMakeFiles/player.dir/lib/player.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/lib/player.c.i
-.PHONY : lib/player.c.i
+lib/entity.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\entity.dir\build.make CMakeFiles/entity.dir/lib/entity.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/lib/entity.c.i
+.PHONY : lib/entity.c.i
 
-lib/player.s: lib/player.c.s
-.PHONY : lib/player.s
+lib/entity.s: lib/entity.c.s
+.PHONY : lib/entity.s
 
 # target to generate assembly for a file
-lib/player.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\player.dir\build.make CMakeFiles/player.dir/lib/player.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/lib/player.c.s
-.PHONY : lib/player.c.s
+lib/entity.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\entity.dir\build.make CMakeFiles/entity.dir/lib/entity.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/lib/entity.c.s
+.PHONY : lib/entity.c.s
 
 lib/rectangle.obj: lib/rectangle.c.obj
 .PHONY : lib/rectangle.obj
@@ -318,16 +278,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Game
-	@echo ... anim
-	@echo ... player
+	@echo ... entity
 	@echo ... rectangle
 	@echo ... sdl_init
-	@echo ... lib/animation.obj
-	@echo ... lib/animation.i
-	@echo ... lib/animation.s
-	@echo ... lib/player.obj
-	@echo ... lib/player.i
-	@echo ... lib/player.s
+	@echo ... lib/entity.obj
+	@echo ... lib/entity.i
+	@echo ... lib/entity.s
 	@echo ... lib/rectangle.obj
 	@echo ... lib/rectangle.i
 	@echo ... lib/rectangle.s

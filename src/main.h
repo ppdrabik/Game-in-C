@@ -4,9 +4,9 @@
 #include <stdio.h>
 #include <SDL.h>
 #include <SDL_image.h>
-#include <player.h>
+#include <entity.h>
 #include <sdl_init.h>
-#include <animation.h>
+
 
 
 
