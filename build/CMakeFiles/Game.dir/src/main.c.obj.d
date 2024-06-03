@@ -98,6 +98,6 @@ CMakeFiles/Game.dir/src/main.c.obj: \
  c:\users\ppdra\desktop\game\sdl2-2.30.3\include\sdl_version.h \
  c:\users\ppdra\desktop\game\sdl2-2.30.3\include\begin_code.h \
  c:\users\ppdra\desktop\game\sdl2-2.30.3\include\close_code.h \
- C:/Users/ppdra/Desktop/Game/lib/player.h \
- C:/Users/ppdra/Desktop/Game/lib/sdl_init.h \
- C:/Users/ppdra/Desktop/Game/lib/movement.h
+ C:/Users/ppdra/Desktop/Game/lib/entity.h \
+ c:\users\ppdra\desktop\game\sdl2-2.30.3\include\sdl_keyboard.h \
+ C:/Users/ppdra/Desktop/Game/lib/sdl_init.h

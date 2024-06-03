@@ -116,32 +116,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named player
-
-# Build rule for target.
-player: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 player
-.PHONY : player
-
-# fast build rule for target.
-player/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\player.dir\build.make CMakeFiles/player.dir/build
-.PHONY : player/fast
-
-#=============================================================================
-# Target rules for targets named movement
-
-# Build rule for target.
-movement: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 movement
-.PHONY : movement
-
-# fast build rule for target.
-movement/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\movement.dir\build.make CMakeFiles/movement.dir/build
-.PHONY : movement/fast
-
-#=============================================================================
 # Target rules for targets named rectangle
 
 # Build rule for target.
@@ -168,6 +142,19 @@ sdl_init/fast:
 .PHONY : sdl_init/fast
 
 #=============================================================================
+# Target rules for targets named entity
+
+# Build rule for target.
+entity: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 entity
+.PHONY : entity
+
+# fast build rule for target.
+entity/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\entity.dir\build.make CMakeFiles/entity.dir/build
+.PHONY : entity/fast
+
+#=============================================================================
 # Target rules for targets named Game
 
 # Build rule for target.
@@ -180,53 +167,32 @@ Game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/build
 .PHONY : Game/fast
 
-lib/movement.obj: lib/movement.c.obj
-.PHONY : lib/movement.obj
+lib/entity.obj: lib/entity.c.obj
+.PHONY : lib/entity.obj
 
 # target to build an object file
-lib/movement.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\movement.dir\build.make CMakeFiles/movement.dir/lib/movement.c.obj
-.PHONY : lib/movement.c.obj
+lib/entity.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\entity.dir\build.make CMakeFiles/entity.dir/lib/entity.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/lib/entity.c.obj
+.PHONY : lib/entity.c.obj
 
-lib/movement.i: lib/movement.c.i
-.PHONY : lib/movement.i
-
-# target to preprocess a source file
-lib/movement.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\movement.dir\build.make CMakeFiles/movement.dir/lib/movement.c.i
-.PHONY : lib/movement.c.i
-
-lib/movement.s: lib/movement.c.s
-.PHONY : lib/movement.s
-
-# target to generate assembly for a file
-lib/movement.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\movement.dir\build.make CMakeFiles/movement.dir/lib/movement.c.s
-.PHONY : lib/movement.c.s
-
-lib/player.obj: lib/player.c.obj
-.PHONY : lib/player.obj
-
-# target to build an object file
-lib/player.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\player.dir\build.make CMakeFiles/player.dir/lib/player.c.obj
-.PHONY : lib/player.c.obj
-
-lib/player.i: lib/player.c.i
-.PHONY : lib/player.i
+lib/entity.i: lib/entity.c.i
+.PHONY : lib/entity.i
 
 # target to preprocess a source file
-lib/player.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\player.dir\build.make CMakeFiles/player.dir/lib/player.c.i
-.PHONY : lib/player.c.i
+lib/entity.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\entity.dir\build.make CMakeFiles/entity.dir/lib/entity.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/lib/entity.c.i
+.PHONY : lib/entity.c.i
 
-lib/player.s: lib/player.c.s
-.PHONY : lib/player.s
+lib/entity.s: lib/entity.c.s
+.PHONY : lib/entity.s
 
 # target to generate assembly for a file
-lib/player.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\player.dir\build.make CMakeFiles/player.dir/lib/player.c.s
-.PHONY : lib/player.c.s
+lib/entity.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\entity.dir\build.make CMakeFiles/entity.dir/lib/entity.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/lib/entity.c.s
+.PHONY : lib/entity.c.s
 
 lib/rectangle.obj: lib/rectangle.c.obj
 .PHONY : lib/rectangle.obj
@@ -312,16 +278,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Game
-	@echo ... movement
-	@echo ... player
+	@echo ... entity
 	@echo ... rectangle
 	@echo ... sdl_init
-	@echo ... lib/movement.obj
-	@echo ... lib/movement.i
-	@echo ... lib/movement.s
-	@echo ... lib/player.obj
-	@echo ... lib/player.i
-	@echo ... lib/player.s
+	@echo ... lib/entity.obj
+	@echo ... lib/entity.i
+	@echo ... lib/entity.s
 	@echo ... lib/rectangle.obj
 	@echo ... lib/rectangle.i
 	@echo ... lib/rectangle.s

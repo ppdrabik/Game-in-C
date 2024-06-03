@@ -1,5 +1,9 @@
 {
     "files.associations": {
-        "main.h": "c"
+        "main.h": "c",
+        "movement.h": "c",
+        "player.h": "c",
+        "typeinfo": "c",
+        "rectangle.h": "c"
     }
 }

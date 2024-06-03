@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libentity.a CMakeFiles/entity.dir/lib/entity.c.obj
+C:\MinGW\bin\ranlib.exe libentity.a

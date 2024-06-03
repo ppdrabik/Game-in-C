@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/ppdra/Desktop/Game/lib/entity.c" "CMakeFiles/Game.dir/lib/entity.c.obj" "gcc" "CMakeFiles/Game.dir/lib/entity.c.obj.d"
   "C:/Users/ppdra/Desktop/Game/lib/sdl_init.c" "CMakeFiles/Game.dir/lib/sdl_init.c.obj" "gcc" "CMakeFiles/Game.dir/lib/sdl_init.c.obj.d"
   "C:/Users/ppdra/Desktop/Game/src/main.c" "CMakeFiles/Game.dir/src/main.c.obj" "gcc" "CMakeFiles/Game.dir/src/main.c.obj.d"
   )

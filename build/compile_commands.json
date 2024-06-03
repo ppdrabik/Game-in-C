@@ -1,18 +1,6 @@
 [
 {
   "directory": "C:/Users/ppdra/Desktop/Game/build",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/player.dir/includes_C.rsp -g -o CMakeFiles\\player.dir\\lib\\player.c.obj -c C:\\Users\\ppdra\\Desktop\\Game\\lib\\player.c",
-  "file": "C:/Users/ppdra/Desktop/Game/lib/player.c",
-  "output": "CMakeFiles/player.dir/lib/player.c.obj"
-},
-{
-  "directory": "C:/Users/ppdra/Desktop/Game/build",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/movement.dir/includes_C.rsp -g -o CMakeFiles\\movement.dir\\lib\\movement.c.obj -c C:\\Users\\ppdra\\Desktop\\Game\\lib\\movement.c",
-  "file": "C:/Users/ppdra/Desktop/Game/lib/movement.c",
-  "output": "CMakeFiles/movement.dir/lib/movement.c.obj"
-},
-{
-  "directory": "C:/Users/ppdra/Desktop/Game/build",
   "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/rectangle.dir/includes_C.rsp -g -o CMakeFiles\\rectangle.dir\\lib\\rectangle.c.obj -c C:\\Users\\ppdra\\Desktop\\Game\\lib\\rectangle.c",
   "file": "C:/Users/ppdra/Desktop/Game/lib/rectangle.c",
   "output": "CMakeFiles/rectangle.dir/lib/rectangle.c.obj"
@@ -25,6 +13,12 @@
 },
 {
   "directory": "C:/Users/ppdra/Desktop/Game/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/entity.dir/includes_C.rsp -g -o CMakeFiles\\entity.dir\\lib\\entity.c.obj -c C:\\Users\\ppdra\\Desktop\\Game\\lib\\entity.c",
+  "file": "C:/Users/ppdra/Desktop/Game/lib/entity.c",
+  "output": "CMakeFiles/entity.dir/lib/entity.c.obj"
+},
+{
+  "directory": "C:/Users/ppdra/Desktop/Game/build",
   "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/Game.dir/includes_C.rsp -g -o CMakeFiles\\Game.dir\\src\\main.c.obj -c C:\\Users\\ppdra\\Desktop\\Game\\src\\main.c",
   "file": "C:/Users/ppdra/Desktop/Game/src/main.c",
   "output": "CMakeFiles/Game.dir/src/main.c.obj"
@@ -34,5 +28,11 @@
   "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/Game.dir/includes_C.rsp -g -o CMakeFiles\\Game.dir\\lib\\sdl_init.c.obj -c C:\\Users\\ppdra\\Desktop\\Game\\lib\\sdl_init.c",
   "file": "C:/Users/ppdra/Desktop/Game/lib/sdl_init.c",
   "output": "CMakeFiles/Game.dir/lib/sdl_init.c.obj"
+},
+{
+  "directory": "C:/Users/ppdra/Desktop/Game/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/Game.dir/includes_C.rsp -g -o CMakeFiles\\Game.dir\\lib\\entity.c.obj -c C:\\Users\\ppdra\\Desktop\\Game\\lib\\entity.c",
+  "file": "C:/Users/ppdra/Desktop/Game/lib/entity.c",
+  "output": "CMakeFiles/Game.dir/lib/entity.c.obj"
 }
 ]

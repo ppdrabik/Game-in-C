@@ -18,8 +18,7 @@
 						0,
 						1,
 						2,
-						3,
-						4
+						3
 					]
 				}
 			],
@@ -37,8 +36,7 @@
 						0,
 						1,
 						2,
-						3,
-						4
+						3
 					]
 				}
 			],
@@ -47,35 +45,28 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Game::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Game-Debug-21c004ece77b459f6217.json",
+					"jsonFile" : "target-Game-Debug-0a47f9361ae53ed515d9.json",
 					"name" : "Game",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "movement::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-movement-Debug-5047446620c1cd16ea1a.json",
-					"name" : "movement",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "player::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-player-Debug-161fa0885f3f38076fc9.json",
-					"name" : "player",
+					"id" : "entity::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-entity-Debug-b95a580c17a914d5576b.json",
+					"name" : "entity",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "rectangle::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-rectangle-Debug-47cdca5b84dc3f3bc67f.json",
+					"jsonFile" : "target-rectangle-Debug-deb24cfe81e315bf7c7c.json",
 					"name" : "rectangle",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "sdl_init::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-sdl_init-Debug-958e82d82fec6fe98da4.json",
+					"jsonFile" : "target-sdl_init-Debug-846b02b26851a96e0bd5.json",
 					"name" : "sdl_init",
 					"projectIndex" : 0
 				}
